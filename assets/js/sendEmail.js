@@ -14,3 +14,8 @@ function sendMail(contactForm) {
     );
     return false;  // To block from loading a new page
 }
+
+function emailSend() {
+    alert("Submit button clicked!");
+    return true;
+}
